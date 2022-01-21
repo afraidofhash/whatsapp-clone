@@ -1,0 +1,67 @@
+.sidebarchat{
+    display: flex;
+    padding: 10px;
+    cursor:pointer;
+    border-bottom: 1px solid #9e979721;
+text-decoration: none;
+
+    
+}
+.sidebarchataddnew{
+    display: flex;
+    padding: 5px;
+    cursor:pointer;
+    background-color: rgb(233, 224, 224);
+    width: 100%;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sidebarchataddnew>h2>.MuiSvgIcon-root{
+    background-color: rgb(124, 123, 123);
+    color: white;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.sidebarchat:hover{
+    background-color: #ebebeb;
+text-decoration: none;
+
+}
+
+.sidebarchat__info{
+    margin-left: 15px;
+    color:black;
+    width: 100%;
+    text-decoration: none;
+    
+    
+}
+.sidebarchat__info>h2{
+    font-size: 16px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+border-radius: 50px;
+text-decoration: none;
+}
+.sidebarchat__info>h2>.time{
+    color:grey;
+    font-size: x-small;
+   position: relative;
+   right:0;
+}
+
+.sidebarchat>.MuiAvatar-root{
+    height: 50px;
+    width:50px;
+    background-color: rgb(238, 224, 224);
+}
